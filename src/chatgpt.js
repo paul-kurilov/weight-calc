@@ -3,7 +3,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
   // apiKey: config.get('OPENAI_KEY'),
-  apiKey: '',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration); 
  
