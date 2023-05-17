@@ -1,5 +1,4 @@
 # Weight calculator with AI
-
 The weight calculator calculates your ideal weight based on 6 formulas (Standard Weight Formula, Brocca, Brocca New, Lorentz, Cooper, Shulgin) and then calculates the average ideal weight based on these formulas. Then with the help of AI (chatgpt) suggests ways to adjust the weight.
 
 ## Content
@@ -8,7 +7,6 @@ The weight calculator calculates your ideal weight based on 6 formulas (Standard
 - [Author](#Author)
 
 ## Technologies
-
 ### Dependencies
 - axios
 - config
