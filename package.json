@@ -10,12 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/paul-kurilov/weight-calc.git"
   },
-  "author": "paul-kurilov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paul-kurilov/weight-calc/issues"
-  },
-  "homepage": "https://github.com/paul-kurilov/weight-calc#readme",
   "dependencies": {
     "axios": "^1.4.0",
     "config": "^3.3.9",
