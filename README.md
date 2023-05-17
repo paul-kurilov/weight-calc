@@ -29,5 +29,5 @@ $ npx webpack
 
 
 ## Author
-- [Paul Kurilov](https://www.linkedin.com/in/paul-kurilov/){:target="_blank"} — Front-End Developer
+- [Paul Kurilov](https://www.linkedin.com/in/paul-kurilov/) — Front-End Developer
 
