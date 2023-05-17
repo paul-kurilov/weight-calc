@@ -1,5 +1,5 @@
 import './validation'
-import { askAI, adviceAI } from './chatgpt'
+import { askAI } from './chatgpt'
 
 document.getElementById('weight-calculator').addEventListener('submit', function(event) {
   event.preventDefault() // Prevent form submission
@@ -75,7 +75,7 @@ document.getElementById('weight-calculator').addEventListener('submit', function
     }
     
     const request = `I am ${gender}. My height is ${height} cm. My age is ${age}. My current weight is ${currentWeight} kg. I want my weight to be ${average.toFixed(1)} kg. What do I need to do to achieve such a result in 30 days. Write a short answer, maximum 5 sentences. The answer should begin strictly like this: You need ....`
-    getAdvice(request)
+    getAdvice(request) 
 
   } else {
     result = `Wrong values`  
