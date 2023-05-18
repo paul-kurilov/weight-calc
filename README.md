@@ -9,13 +9,14 @@ The weight calculator calculates your ideal weight based on 6 formulas (Standard
 ## Technologies
 ### Dependencies
 - axios
-- config
 - openai
 - webpack
+- dotenv-webpack
 
 ## Usage
 - Download the repository
-- In the ./src/chatgpt.js file, on the 6th line, insert the apiKey from openai.com
+- In the root directory create a file called ".env"
+- In the ".env" file, on the 1th line, insert the apiKey from openai.com after "OPENAI_API_KEY="
 - Install Dependencies
 ```sh
 $ npm install
