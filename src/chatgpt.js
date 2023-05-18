@@ -1,9 +1,9 @@
-// import config from "config";
+// require('dotenv').config();
 import { Configuration, OpenAIApi } from "openai";
+// import { OPENAI_API_KEY } from "process.env"
 
 const configuration = new Configuration({
-  // apiKey: config.get('OPENAI_KEY'),
-  apiKey: '',
+  apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration); 
  
@@ -20,9 +20,4 @@ export const askAI = async (question) => {
   }
 }
 
-
-
-export const adviceAI = async (request) => {
-  return await askAI(request)
-}
 
