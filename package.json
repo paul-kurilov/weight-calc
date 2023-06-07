@@ -2,9 +2,7 @@
   "name": "weight-calc",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "vercel-build": "webpack --config webpack.config.js",
+  "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

@@ -1,5 +1,0 @@
-{
-  "builds": [
-    { "src": "npx webpack", "use": "@vercel/static" }
-  ]
-}
